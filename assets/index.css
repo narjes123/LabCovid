@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(226, 226, 226);
+}
+.pad{
+    padding-top: 100px;
+}
+
+.form{
+    width: 50%;
+    height: 40%;
+    margin: 10px auto;
+    border: 2px solid grey ;
+    background-color: #fff;
+    padding: 40px 50px;
+
+}
+
+.status-post{
+    border-radius: 8px;
+    border-color: rgb(175, 190, 218);
+    border-style: inset;
+    background-color: #fff;
+}
+.status-post .btn-primary{
+    float: right;
+}
+.status-post textarea{
+    border: none;
+
+}
+.status-post textarea:focus{
+    box-shadow: none;
+}
+input[type="file"]{
+    display: none;
+}
+
+.status-post-submit{
+    border-top: 1px solid rgb(132, 132, 175);
+    padding: 0.5em 1em;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.status-media{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 2em;
+    word-break: break-all;
+    -ms-word-break: break-all;
+   
+}
+
+.post-img{
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 20px;
+    min-width: 102%;
+    max-width: 50%;
+
+}
+.left{
+border: 1px inset black;
+background-color: #fff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+
+margin-bottom: 10px;
+}
+.left1{
+    border: 1px inset black;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom:500px;
+}
+
+#profile-img{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+#update-profile{
+    position: relative;
+    top: -33px;
+    cursor: pointer;
+    left: 140px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+    transform: translate(-50%, -50%);
+}
+#button_profile{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+.img-circle{
+    border-radius: 50%;
+}
+.prof{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+ 
+
+}
+#scroll_messages{
+    max-height: 500px;
+    overflow: scroll;
+}
+#btn-msg{
+    
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+  
+    background-color:#433082;
+
+
+}
+#select_user{
+    max-height: 500px;
+    overflow: scroll;
+}
+#recieved{
+    background-color: #f4ebee;
+     
+    width: 45%;
+    padding: 2.5px;
+    font-size: 16px;
+    border-radius: 3px;   
+    float: left;
+    margin-bottom: 5px;
+}
+#send{ background-color: #948cc1;
+    
+    width: 45%;
+    padding: 2.5px;
+    font-size: 16px;
+    border-radius: 3px;   
+    float: right;
+    margin-bottom: 5px;
+
+}
